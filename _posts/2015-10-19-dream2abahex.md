@@ -5,6 +5,7 @@ description: "The post describes a MATLAB script for writing ABAQUS hexahedral f
 modified: 2015-10-19
 tags: [dream.3d, abaqus, matlab]
 mathjax: true
+long: true
 ---
 
 The post describes a MATLAB script for writing ABAQUS hexahedral finite element mesh and Euler angles from synthetic microstructures generated in Dream.3D.

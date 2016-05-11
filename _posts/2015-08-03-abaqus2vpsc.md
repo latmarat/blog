@@ -5,6 +5,7 @@ description: "The post explains how to obtain local deformation history from ABA
 modified: 2015-08-03
 tags: [vpsc, abaqus, python]
 mathjax: true
+long: true
 ---
 
 The post explains how to obtain local deformation history from ABAQUS finite element simulation of a deformation process for modeling of the corresponding texture evolution by VPSC.
