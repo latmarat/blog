@@ -6,6 +6,7 @@ modified: 2016-01-18
 tags: [dream.3d, abaqus, matlab]
 mathjax: true
 long: true
+share: false
 ---
 
 The post describes a MATLAB script for obtaining ABAQUS tetrahedral volume mesh from surface mesh of grain boundaries generated in Dream.3D.
