@@ -12,7 +12,7 @@ The post describes a MATLAB script for obtaining ABAQUS tetrahedral volume mesh 
 
 # Intro
 
-In the [previous post](latmarat.net/blog/dream2abahex/), I described a MATLAB script to write hexahedral ABAQUS mesh for a microstructure generated in Dream.3D. Brick elements make for a good mesh quality and thus a decent numerical stability of finite element simulations. At the same time, the use of brick elements inevitably leads to ladder-shaped grain boundaries.
+In the [previous post](http://latmarat.net/blog/dream2abahex/), I described a MATLAB script to write hexahedral ABAQUS mesh for a microstructure generated in Dream.3D. Brick elements make for a good mesh quality and thus a decent numerical stability of finite element simulations. At the same time, the use of brick elements inevitably leads to ladder-shaped grain boundaries.
 
 Sometimes, it is desired to include the effect of the intricate curvature of grain boundaries in finite element simulations. For example, with realistic grain boundaries incorporated in the finite element models, it is possible to track the evolution of grain boundary facet normals or even grain boundary character disribution during plastic deformation (see [_Knezevic et al., 2014_](http://dx.doi.org/10.1016/j.cma.2014.05.003)).
 

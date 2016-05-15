@@ -1,11 +1,11 @@
 title:            research blog
-description:      "Research blog of Marat I. Latypov (Georgia Tech Lorraine) - posts on Dream.3D, ABAQUS, MTEX, Python, MATLAB - micromechanics of materials, microstructures, crystal plasticity, texture, materials informatics"
+description:      Research blog of Marat I. Latypov (Georgia Tech Lorraine) - posts on Dream.3D, ABAQUS, MTEX, Python, MATLAB - micromechanics of materials, microstructures, crystal plasticity, texture, materials informatics
 disqus_shortname:
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url: /blog
+url: /blog/
 
 # Owner/author information
 owner:
