@@ -18,7 +18,7 @@ image:
     {% endif %}
     <div class="entry-meta">
       <span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span><span class="author vcard"><span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>
-      {% if site.reading_time %}
+      {% if site.reading_time and post.layout =="post" and post.long %}
       <span class="entry-reading-time">
         <i class="fa fa-clock-o"></i>
         {% include read-time-index.html %}
@@ -31,15 +31,22 @@ image:
       <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
     {% endif %}
   </header>
-  {% if post.long %}
+  {% if post.layout =="slide" %}
     <div class="entry-content">
     {{ post.description }}
     </div>
-    <a href="{{ site.url }}{{ post.url }}">Continue reading &#8594</a>
+    <a href="{{ site.url }}{{ post.url }}">Open slides &#8594</a>
   {% else %}
-    <div class="entry-content">
-      {{ post.content }}
-    </div><!-- /.entry-content -->
+    {% if post.long %}
+      <div class="entry-content">
+      {{ post.description }}
+      </div>
+      <a href="{{ site.url }}{{ post.url }}">Read the whole story &#8594</a>
+    {% else %}
+      <div class="entry-content">
+        {{ post.content }}
+      </div><!-- /.entry-content -->
+    {% endif %}
   {% endif %}
 </article><!-- /.hentry -->
 {% endfor %}
