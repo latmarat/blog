@@ -1,5 +1,6 @@
 function plotLDR(data) {
   // Variables
+  //console.log(myurl)
   var body = d3.select('div#left')
   var margin = { top: 50, right: 50, bottom: 50, left: 50 }
   var h = 500 - margin.top - margin.bottom
@@ -130,7 +131,10 @@ function displayEBSD(i,margin,h,w,data) {
 
   d3.select("#ebsd").remove()
 
-  var imgname = '{{ site.url }}/images/2016-07-01-presentation/img/ebsd/ebsd-' + (i+1) + '.png'
+  var getUrl = window.location;
+  var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[0];
+
+  var imgname = baseUrl + '/images/2016-07-01-presentation/img/ebsd/ebsd-' + (i+1) + '.png'
   console.log(imgname)
 
   var svg = d3.select("#svg_2")
