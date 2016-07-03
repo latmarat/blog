@@ -132,7 +132,8 @@ function displayEBSD(i,margin,h,w,data) {
   d3.select("#ebsd").remove()
 
   var getUrl = window.location;
-  var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[0];
+  var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
+  console.log(baseUrl)
 
   var imgname = baseUrl + '/images/2016-07-01-presentation/img/ebsd/ebsd-' + (i+1) + '.png'
   console.log(imgname)
