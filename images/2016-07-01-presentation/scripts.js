@@ -130,7 +130,7 @@ function displayEBSD(i,margin,h,w,data) {
 
   d3.select("#ebsd").remove()
 
-  var imgname = '/images/2016-07-01-presentation/img/ebsd/ebsd-' + (i+1) + '.png'
+  var imgname = '{{ site.url }}/images/2016-07-01-presentation/img/ebsd/ebsd-' + (i+1) + '.png'
   console.log(imgname)
 
   var svg = d3.select("#svg_2")
