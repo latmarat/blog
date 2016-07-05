@@ -13,7 +13,7 @@ function plotLDR(data) {
       d3.min(data.GrainSize, function (d) { return d[0] }),
       d3.max(data.GrainSize, function (d) { return d[0] })
       ])
-    .range(['#ffffff','#3399ff'])
+    .range(['#ffffff','#ff0045'])
     var rScale = d3.scale.linear()
       .domain([
         d3.min(data.CI, function (d) { return d[0] }),
