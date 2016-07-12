@@ -51,7 +51,7 @@ If you are new to MTEX and unsure how to process the EBSD data, read on the foll
 
 # EBSD data import
 
-The current framework utilizes MTEX functions so that MTEX must be properly installed in MATLAB. MTEX is a free and open-source MATLAB toolbox for texture and EBSD analysis (available at  [http://mtex-toolbox.github.io/](http://mtex-toolbox.github.io/).
+The current framework utilizes MTEX functions so that MTEX must be properly installed in MATLAB. MTEX is an open-source MATLAB toolbox for texture and EBSD analysis (available at  [http://mtex-toolbox.github.io/](http://mtex-toolbox.github.io/)).
 
 Once MTEX is installed, you need to import the EBSD data into MATLAB. If you have never used MTEX, the simplest way to import the data is through MTEX Import Wizard. Import Wizard can be started by typing ```import_wizard``` in MATLAB command window, which results in a window shown in the figure below.
 
@@ -66,7 +66,7 @@ Go to `EBSD` tab and click `+`. Browse to your EBSD file and open it. Accept the
 
 ## Grid conversion
 
-The present framework of building a FE model approximates microstructures by hexahedral mesh, i.e. mesh consisting of cuboidal (C3D8) elements. The use of a hexahedral mesh inevitably leads to ladder-like grain/phase boundaries, however, this is assumed to be a sufficiently good approximation for most cases, especially when the EBSD map has a relatively high resolution.
+The present framework of building a FE model approximates microstructures by hexahedral mesh, i.e. mesh consisting of cuboidal (C3D8) elements. The use of a hexahedral mesh inevitably leads to ladder-like grain/phase boundaries, however, this is assumed to be a sufficiently good approximation for many cases, especially when the EBSD map has a relatively high resolution.
 
 Building a hexahedral mesh is *much* easier if the EBSD data is on a square grid. Since experimental EBSD maps are frequently recorded on hexagonal grids, it is necessary to convert these maps to square grids. In MTEX conversion can be done by using `fill` function:
 
@@ -102,7 +102,7 @@ Getting rid of pixels that belong to unreasonably tiny "grains" require prior gr
 
 with `angle` being the disorientation angle for thresholding grains (e.g. 15).
 
-After grain segmentation, such "bad" pixels can be removed as follows
+After grain segmentation, such "bad" pixels can be removed as follows:
 
 {% highlight MATLAB %}
 indSmallSize = grains.grainSize < minSize;
@@ -298,7 +298,7 @@ The sections for phases are created assuming that there will be a material for e
 
 # Citation
 
-The script presented here is a by-product of one of my short-term research projects -- on medium manganese steel -- while I was at POSTECH. You can find the publication resulting from this project (and showing `ebsd2abaqus` in action) [here](https://dx.doi.org/10.1016/j.actamat.2016.02.001). Feel free to cite this paper (or even this post) if you like.
+The script presented here is a by-product of one of my short-term research projects -- on medium manganese steel -- while I was at POSTECH. You can find the publication resulting from this project (and showing `ebsd2abaqus` in action) [here](https://dx.doi.org/10.1016/j.actamat.2016.02.001). Feel free to cite the paper (or even this post) if you like.
 
 Bibtex entry:
 
