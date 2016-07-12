@@ -261,7 +261,7 @@ In ABAQUS/CAE, the generated mesh consisting of 30,744 C3D8 elements looks as sh
 	<a href="https://farm9.staticflickr.com/8768/27648657834_7b4d4bc106_z_d.jpg"><img src="https://farm9.staticflickr.com/8768/27648657834_7b4d4bc106_z_d.jpg" alt="Raw cropped map"></a>
 	<a href="https://farm8.staticflickr.com/7619/27983176050_dd0da6d1f7_z_d.jpg"><img src="https://farm8.staticflickr.com/7619/27983176050_dd0da6d1f7_z_d.jpg" alt="Cleaned and filled map"></a>
 	<a href="https://farm9.staticflickr.com/8566/28187499371_0ba97f5602_z_d.jpg"><img src="https://farm9.staticflickr.com/8566/28187499371_0ba97f5602_z_d.jpg" alt="Map with bad pixels removed"></a>
-	<figcaption>The final mesh in ABAQUS/CAE color-coded according to phase sets (on the right) alongside with the raw EBSD map (on the left) and the cleaned EBSD map (in the middle).</figcaption>
+	<figcaption>The final mesh in ABAQUS/CAE color-coded according to phase sets (iii) alongside with the raw EBSD map (i) and the cleaned EBSD map (ii).</figcaption>
 </figure>
 
 Whereas the model tree in ABAQUS/CAE looks like this:
@@ -281,8 +281,7 @@ Parts
     	├── ...                   # etc.
     	├── PHASE-DIOPSIDE        # Element set constituting phase diopside
     	├── PHASE-ENSTATITE       # Element set constituting phase enstatite
-    	├── PHASE-FORSTERITE      # Element set constituting phase forsterite
-    	└── PHASE-SILICON         # Element set constituting phase silicon
+    	└── PHASE-FORSTERITE      # Element set constituting phase forsterite
 Materials                         # Create materials with phase names as material names
 Sections                          # Sections for phases
 	├── Section-1-PHASE-FORSTERITE
@@ -317,3 +316,7 @@ year = {2016}
 }
 
 {% endhighlight %}
+
+# Acknowledgements
+
+Thanks are due to Ralf Hielscher for [explanations](https://groups.google.com/d/msg/mtexmail/MPG0SffjR6o/z1vmzHEyCAAJ) on grid checks and and conversion.
