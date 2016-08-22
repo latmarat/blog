@@ -319,4 +319,4 @@ year = {2016}
 
 # Acknowledgements
 
-Thanks are due to Ralf Hielscher for [explanations](https://groups.google.com/d/msg/mtexmail/MPG0SffjR6o/z1vmzHEyCAAJ) on grid checks and and conversion.
+Thanks are due to Ralf Hielscher for [explanations](https://groups.google.com/d/msg/mtexmail/MPG0SffjR6o/z1vmzHEyCAAJ) on grid checks and conversion.

@@ -2,6 +2,7 @@
 layout: page
 title: About
 comments: false
+share: false
 modified: 2016-02-01
 ---
 
@@ -39,8 +40,8 @@ Please feel free to contact me by [email](mailto:marat.latypov@georgiatech-metz.
 
 The opinions expressed in the blog represent **my own** and not those of the institutions I am (or was) affiliated with.
 
-I am not affiliated with any of the organizations holding rights to the commercial or open-source software mentioned in the blog. All rights belong to their respective owners, refer to the corresponding licenses for the terms of use. I do not advocate for any of the software or service mentioned in the blog.
+I am not affiliated with any of the organizations holding rights to the commercial or open-source software mentioned in the blog. All rights belong to their respective owners, refer to the corresponding licenses for the terms of use. I do not advocate for any software or service mentioned in the blog.
 
-All the information, codes, and frameworks in the blog are provided **as is**, for informational purposes, in the hope that they will be useful, though with no warranties, expressed or implied, and with no rights conferred. So you can use them only **at your own risk**.
+All the information, codes, and frameworks in the blog are provided **as is**, for informational purposes, in the hope that they will be useful, though with **no warranties**, expressed or implied, and with no rights conferred. So you can use them only **at your own risk**.
 
-Questions and bug reports are welcome, however, note that I do not actively use many of the codes described in the blog so that I may not be always able to address your question/request. Also, I am much more likely to respond to questions concerned directly with my codes rather than problems with compilation/installation of third-party software.
+Questions and bug reports are welcome, however, note that I do not actively use many of the codes described in the blog anymore so that I may not be always able to address your question/request. Also, I am much more likely to respond to questions concerned directly with my codes rather than problems with compilation/installation of third-party software.
