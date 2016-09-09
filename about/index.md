@@ -31,7 +31,7 @@ The intent of this blog is to share some of my thoughts, codes, or computational
 
 I am currently available for hire for
 
-- a full-time position in industry (or academia for some cases) in the areas of materials science, mechanics of materials, general data sciences, or at the intersection of the three,
+- a full-time position in industry (or academia) in the areas of materials science, mechanics of materials, general data sciences, or at the intersection of the three,
 - consultancy or part-time work on a short-term project in the areas of my expertise.
 
 Please feel free to contact me by [email](mailto:marat.latypov@georgiatech-metz.fr) or on [LinkedIn](https://www.linkedin.com/in/latmarat) if my profile has interested you.
