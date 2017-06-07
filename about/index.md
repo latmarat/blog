@@ -10,7 +10,7 @@ Hello and welcome!
 
 # About me
 
-My name is Marat I. Latypov, I am a materials scientist, data scientist, visualization and programming enthusiast. At the moment, I am a researcher at Georgia Tech Lorraine, the French campus of Georgia Institute of Technology, which I joined after receiving a PhD from POSTECH (South Korea).
+My name is Marat I. Latypov, I am a materials scientist, data scientist, visualization and programming enthusiast. At the moment, I am a researcher at University of Lorraine.
 
 The areas of my expertise include
 
@@ -26,15 +26,6 @@ At the moment, I am most excited about interactive visualization (e.g. D3.js) an
 # About this blog
 
 The intent of this blog is to share some of my thoughts, codes, or computational frameworks, which were developed as by-products of my research activities. Please read Disclaimer below before continuing to the blog.
-
-# Hire me
-
-I am currently available for hire for
-
-- a full-time position in industry (or academia) in the areas of materials science, mechanics of materials, general data sciences, or at the intersection of the three,
-- consultancy or part-time work on a short-term project in the areas of my expertise.
-
-Please feel free to contact me by [email](mailto:marat.latypov@georgiatech-metz.fr) or on [LinkedIn](https://www.linkedin.com/in/latmarat) if my profile has interested you.
 
 # Disclaimer
 
